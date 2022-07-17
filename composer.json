@@ -5,7 +5,14 @@
     "homepage": "https:wolfiesites.com",
     "type": "library",
     "license": "GPL-2.0+",
-    "authors": [],
+    "authors": [
+        {
+            "name": "Paweł Witek",
+            "email": "pawel.witek@wolfiesites.com",
+            "homepage": "https://wolfiesites.com",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "htmlburger/carbon-fields": "^3.3"
     },
