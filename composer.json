@@ -2,7 +2,7 @@
     "name": "wolfiesites/carbon-field-wolfie-password",
     "description": "Carbon Fields extension, that adds a wolfie_password field type.",
     "keywords": ["wordpress", "carbon-field", "carbon-field-wolfie-password"],
-    "homepage": "https:wolfiesites.com",
+    "homepage": "https://wolfiesites.com",
     "type": "library",
     "license": "GPL-2.0+",
     "authors": [
