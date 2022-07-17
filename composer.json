@@ -1,8 +1,8 @@
 {
-    "name": "htmlburger/carbon-field-wolfie-password",
+    "name": "wolfiesites/carbon-field-wolfie-password",
     "description": "Carbon Fields extension, that adds a wolfie-password field type.",
     "keywords": ["wordpress", "carbon-field", "carbon-field-wolfie-password"],
-    "homepage": "http://yourhomepage.example.com",
+    "homepage": "https:wolfiesites.com",
     "type": "library",
     "license": "GPL-2.0+",
     "authors": [],
