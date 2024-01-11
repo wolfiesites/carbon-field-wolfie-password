@@ -2,6 +2,7 @@
 
 namespace Carbon_Field_Wolfie_Password;
 
+use Carbon_Fields\Carbon_Fields;
 use Carbon_Fields\Field\Field;
 
 class Wolfie_Password_Field extends Field {
@@ -38,5 +39,15 @@ class Wolfie_Password_Field extends Field {
 
 		// Enqueue field scripts.
 		wp_enqueue_script( 'carbon-field-wolfie-password', $root_uri . '/build/bundle.js', array( 'carbon-fields-core' ) );
+	}
+
+	public static function register() {
+		Carbon_Fields::extend( Wolfie_Password_Field::class, function ( $container ) {
+			return new Wolfie_Password_Field(
+				$container['arguments']['type'],
+				$container['arguments']['name'],
+				$container['arguments']['label']
+			);
+		} );
 	}
 }
