@@ -17,9 +17,6 @@
         "htmlburger/carbon-fields": "^3.3"
     },
     "autoload": {
-        "files": [
-            "field.php"
-        ],
         "psr-4": {
             "Carbon_Field_Wolfie_Password\\": "core/"
         }
